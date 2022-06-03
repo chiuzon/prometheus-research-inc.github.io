@@ -2,59 +2,48 @@
 	export const prerender = true;
 </script>
 
-<script lang="ts">
-	import Counter from '$lib/Counter.svelte';
-</script>
-
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
 <section>
-	<h1>
-		<div class="welcome">
-			<picture>
-				<source srcset="svelte-welcome.webp" type="image/webp" />
-				<img src="svelte-welcome.png" alt="Welcome" />
-			</picture>
-		</div>
-
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
-
-	<Counter />
+	<h1>Welcome to Prometheus.</h1>
+	<p>
+		We are a newly-founded endeavour to increase both the knowledge and number of
+		intermediate/senior-level cryptocurrency software developers.
+	</p>
+	<p>
+		We have observed over the years that there is a lack of a central library of opinionated
+		material with minimal code snippets for topics that form the core of a education beyond those
+		presented by introductory courses to languages such as Solidity.
+	</p>
+	<p>
+		We have observed that a significant amount of talent - that learns best by doing - cuts their
+		developer careers short after being unable to identify tasks suitable for their skill level,
+		often being intimidated by the size and complexity of large/popular protocols.
+	</p>
+	<p>
+		We have observed that those that have the desire to improve their skillset often lack the time
+		or financial resources to dedicate themselves properly to becoming proficient with the material
+		that sets someone conversant in development apart from someone who can move mountains of
+		bytecode themselves.
+	</p>
+	<h3>We have observed all of this, and we intend to fix it.</h3>
+	<p>Prometheus is a project of two parts:</p>
+	<ul>
+		<li>
+			An open-source repository of advanced topics cutting across several languages and disciplines,
+			funded as a public good, accessible to all and with an associated funding model that
+			encourages contributions from developers in their educational journey, technical writers and
+			editors, and
+		</li>
+		<li>
+			An apprenticeship-based consultancy, whereupon selected participants will be placed into small
+			groups, have their living expenses funded, and work together - in the open - under the
+			guidance of a senior developer on a variety of projects, receiving task breakdowns, quality
+			assurance and direction to boost their confidence and skillset.
+		</li>
+	</ul>
+	<p>More details to follow.</p>
+	<p>Spread the word.</p>
 </section>
-
-<style>
-	section {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		flex: 1;
-	}
-
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
-</style>

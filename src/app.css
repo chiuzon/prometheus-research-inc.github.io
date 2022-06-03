@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+	line-height: 28px;
+}
+
+body {
+	@apply bg-secondary-1;
+	@apply text-primary-2;
+	@apply font-inter;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	@apply font-normal;
+	@apply text-white;
+	@apply text-2xl;
+}
+
+p {
+	@apply text-base;
+	@apply leading-loose;
+}

@@ -38,8 +38,7 @@
       "type": "module",
       "dependencies": {
         "@fontsource/fira-mono": "^4.5.0",
-        "cookie": "^0.4.1",
-        "pnpm": "^7.1.7"
+        "cookie": "^0.4.1"
       }
     },
     "prefix": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io"
@@ -54,42 +53,6 @@
     "stage": "resolution_started"
   },
   "4 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/tslib/2.4.0",
-    "wanted": {
-      "dependentId": ".",
-      "name": "tslib",
-      "rawSpec": "^2.3.1"
-    }
-  },
-  "5 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/tslib/2.4.0",
-    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
-    "status": "resolved"
-  },
-  "6 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/tslib/2.4.0",
-    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
-    "status": "found_in_store"
-  },
-  "7 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/@types/cookie/0.4.1",
-    "wanted": {
-      "dependentId": ".",
-      "name": "@types/cookie",
-      "rawSpec": "^0.4.1"
-    }
-  },
-  "8 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/@types/cookie/0.4.1",
-    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
-    "status": "resolved"
-  },
-  "9 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/@types/cookie/0.4.1",
-    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
-    "status": "found_in_store"
-  },
-  "10 debug pnpm:_dependency_resolved": {
     "resolution": "registry.npmjs.org/eslint-config-prettier/8.5.0",
     "wanted": {
       "dependentId": ".",
@@ -97,35 +60,53 @@
       "rawSpec": "^8.3.0"
     }
   },
-  "11 debug pnpm:progress": {
+  "5 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "resolved"
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "found_in_store"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.4.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tslib",
+      "rawSpec": "^2.3.1"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "resolved"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "found_in_store"
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/cookie/0.4.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/cookie",
+      "rawSpec": "^0.4.1"
+    }
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/cookie/0.4.1",
     "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
     "status": "resolved"
   },
   "12 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/eslint-config-prettier/8.5.0",
+    "packageId": "registry.npmjs.org/@types/cookie/0.4.1",
     "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
     "status": "found_in_store"
   },
   "13 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
-    "wanted": {
-      "dependentId": ".",
-      "name": "eslint-plugin-svelte3",
-      "rawSpec": "^4.0.0"
-    }
-  },
-  "14 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
-    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
-    "status": "resolved"
-  },
-  "15 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
-    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
-    "status": "found_in_store"
-  },
-  "16 debug pnpm:_dependency_resolved": {
     "resolution": "registry.npmjs.org/prettier/2.6.2",
     "wanted": {
       "dependentId": ".",
@@ -133,35 +114,17 @@
       "rawSpec": "^2.5.1"
     }
   },
-  "17 debug pnpm:progress": {
+  "14 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/prettier/2.6.2",
     "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
     "status": "resolved"
   },
-  "18 debug pnpm:progress": {
+  "15 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/prettier/2.6.2",
     "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
     "status": "found_in_store"
   },
-  "19 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
-    "wanted": {
-      "dependentId": ".",
-      "name": "prettier-plugin-svelte",
-      "rawSpec": "^2.5.0"
-    }
-  },
-  "20 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
-    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
-    "status": "resolved"
-  },
-  "21 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
-    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
-    "status": "found_in_store"
-  },
-  "22 debug pnpm:_dependency_resolved": {
+  "16 debug pnpm:_dependency_resolved": {
     "resolution": "registry.npmjs.org/cookie/0.4.2",
     "wanted": {
       "dependentId": ".",
@@ -169,35 +132,17 @@
       "rawSpec": "^0.4.1"
     }
   },
-  "23 debug pnpm:progress": {
+  "17 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/cookie/0.4.2",
     "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
     "status": "resolved"
   },
-  "24 debug pnpm:progress": {
+  "18 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/cookie/0.4.2",
     "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
     "status": "found_in_store"
   },
-  "25 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/svelte-check/2.7.2",
-    "wanted": {
-      "dependentId": ".",
-      "name": "svelte-check",
-      "rawSpec": "^2.2.6"
-    }
-  },
-  "26 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/svelte-check/2.7.2",
-    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
-    "status": "resolved"
-  },
-  "27 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/svelte-check/2.7.2",
-    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
-    "status": "found_in_store"
-  },
-  "28 debug pnpm:_dependency_resolved": {
+  "19 debug pnpm:_dependency_resolved": {
     "resolution": "registry.npmjs.org/svelte-preprocess/4.10.6",
     "wanted": {
       "dependentId": ".",
@@ -205,17 +150,84 @@
       "rawSpec": "^4.10.1"
     }
   },
-  "29 debug pnpm:progress": {
+  "20 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/svelte-preprocess/4.10.6",
     "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
     "status": "resolved"
   },
-  "30 debug pnpm:progress": {
+  "21 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/svelte-preprocess/4.10.6",
     "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
     "status": "found_in_store"
   },
-  "31 debug pnpm:_dependency_resolved": {
+  "22 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.48.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.46.0"
+    }
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.48.0",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "resolved"
+  },
+  "24 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@fontsource/fira-mono/4.5.8",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@fontsource/fira-mono",
+      "rawSpec": "^4.5.0"
+    }
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@fontsource/fira-mono/4.5.8",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "resolved"
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.48.0",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "found_in_store"
+  },
+  "27 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "prettier-plugin-svelte",
+      "rawSpec": "^2.5.0"
+    }
+  },
+  "28 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "resolved"
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/prettier-plugin-svelte/2.7.0",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "found_in_store"
+  },
+  "30 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint-plugin-svelte3",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "31 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "resolved"
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint-plugin-svelte3/4.0.0",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "found_in_store"
+  },
+  "33 debug pnpm:_dependency_resolved": {
     "resolution": "registry.npmjs.org/eslint/8.16.0",
     "wanted": {
       "dependentId": ".",
@@ -223,17 +235,35 @@
       "rawSpec": "^8.12.0"
     }
   },
-  "32 debug pnpm:progress": {
+  "34 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/eslint/8.16.0",
     "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
     "status": "resolved"
   },
-  "33 debug pnpm:progress": {
+  "35 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/eslint/8.16.0",
     "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
     "status": "found_in_store"
   },
-  "34 debug pnpm:_dependency_resolved": {
+  "36 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-check/2.7.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-check",
+      "rawSpec": "^2.2.6"
+    }
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/2.7.2",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "resolved"
+  },
+  "38 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-check/2.7.2",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "found_in_store"
+  },
+  "39 debug pnpm:_dependency_resolved": {
     "resolution": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.50",
     "wanted": {
       "dependentId": ".",
@@ -241,21 +271,40 @@
       "rawSpec": "next"
     }
   },
-  "35 debug pnpm:progress": {
+  "40 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.50",
     "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
     "status": "resolved"
   },
-  "36 debug pnpm:progress": {
+  "41 debug pnpm:progress": {
     "packageId": "registry.npmjs.org/@sveltejs/adapter-auto/1.0.0-next.50",
     "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
     "status": "found_in_store"
   },
-  "37 warn pnpm:install-check": {
+  "42 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/@fontsource/fira-mono/4.5.8",
+    "size": 958573,
+    "status": "started"
+  },
+  "43 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@playwright/test/1.22.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@playwright/test",
+      "rawSpec": "^1.21.0"
+    }
+  },
+  "44 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@playwright/test/1.22.2",
+    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
+    "status": "resolved"
+  },
+  "45 warn pnpm:install-check": {
     "message": "Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.347: wanted: {\"node\":\">=16.7\"} (current: {\"node\":\"v14.17.0\",\"pnpm\":\"6.32.3\"})",
     "prefix": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io"
   },
-  "38 error pnpm": {
+  "46 error pnpm": {
     "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
     "packageId": "registry.npmjs.org/@sveltejs/kit/1.0.0-next.347",
     "wanted": {
@@ -272,18 +321,5 @@
       "code": "ERR_PNPM_UNSUPPORTED_ENGINE",
       "stack": "pnpm: Unsupported engine for registry.npmjs.org/@sveltejs/kit/1.0.0-next.347: wanted: {\"node\":\">=16.7\"} (current: {\"node\":\"v14.17.0\",\"pnpm\":\"6.32.3\"})\n    at checkEngine (C:\\snapshot\\dist\\pnpm.cjs)\n    at checkPackage (C:\\snapshot\\dist\\pnpm.cjs)\n    at packageIsInstallable (C:\\snapshot\\dist\\pnpm.cjs)\n    at resolveAndFetch (C:\\snapshot\\dist\\pnpm.cjs)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async resolveDependency (C:\\snapshot\\dist\\pnpm.cjs)\n    at async resolveDependenciesOfDependency (C:\\snapshot\\dist\\pnpm.cjs)\n    at async Promise.all (index 2)\n    at async resolveDependencies (C:\\snapshot\\dist\\pnpm.cjs)"
     }
-  },
-  "39 debug pnpm:_dependency_resolved": {
-    "resolution": "registry.npmjs.org/@fontsource/fira-mono/4.5.8",
-    "wanted": {
-      "dependentId": ".",
-      "name": "@fontsource/fira-mono",
-      "rawSpec": "^4.5.0"
-    }
-  },
-  "40 debug pnpm:progress": {
-    "packageId": "registry.npmjs.org/@fontsource/fira-mono/4.5.8",
-    "requester": "C:\\Users\\alen\\Documents\\GitHub\\v2\\prometheus-research-inc.github.io",
-    "status": "resolved"
   }
 }
