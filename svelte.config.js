@@ -22,8 +22,8 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			pages: 'dist',
-			assets: 'dist'
+			pages: 'docs',
+			assets: 'docs'
 		}),
 		paths: {
 			base: dev ? '' : REPO_NAME
