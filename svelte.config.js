@@ -22,8 +22,8 @@ const config = {
 
 	kit: {
 		adapter: adapter({
-			pages: 'docs',
-			assets: 'docs'
+			pages: '/docs',
+			assets: '/docs'
 		}),
 
 		// Override http methods in the Todo forms
