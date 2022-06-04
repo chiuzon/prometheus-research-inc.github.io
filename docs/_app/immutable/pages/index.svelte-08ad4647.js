@@ -1,0 +1,27 @@
+import{S as ne,i as re,s as le,x as pe,k as l,e as s,t as p,y as de,m as d,c as n,a as r,h as c,d as t,z as ce,g as a,H as i,n as fe,r as ue,p as he,C as me}from"../chunks/index-ba13ea11.js";import{S as ve}from"../chunks/SEO-55cef318.js";function be(se){let f,P,h,M,S,m,O,$,v,R,g,b,U,j,y,B,A,w,D,q,_,F,z,u,x,G,J,W,K,H,k,N,L,E,Q,C;return f=new ve({props:{title:""}}),{c(){pe(f.$$.fragment),P=l(),h=s("h1"),M=p("Welcome to Prometheus."),S=l(),m=s("p"),O=p(`We are a newly-founded endeavour to increase both the knowledge and number of
+	intermediate/senior-level cryptocurrency software developers.`),$=l(),v=s("p"),R=p(`We have observed over the years that there is a lack of a central library of opinionated material
+	with minimal code snippets for topics that form the core of a education beyond those presented by
+	introductory courses to languages such as Solidity.`),g=l(),b=s("p"),U=p(`We have observed that a significant amount of talent - that learns best by doing - cuts their
+	developer careers short after being unable to identify tasks suitable for their skill level, often
+	being intimidated by the size and complexity of large/popular protocols.`),j=l(),y=s("p"),B=p(`We have observed that those that have the desire to improve their skillset often lack the time or
+	financial resources to dedicate themselves properly to becoming proficient with the material that
+	sets someone conversant in development apart from someone who can move mountains of bytecode
+	themselves.`),A=l(),w=s("h3"),D=p("We have observed all of this, and we intend to fix it."),q=l(),_=s("p"),F=p("Prometheus is a project of two parts:"),z=l(),u=s("ul"),x=s("li"),G=p(`An open-source repository of advanced topics cutting across several languages and disciplines,
+		funded as a public good, accessible to all and with an associated funding model that encourages
+		contributions from developers in their educational journey, technical writers and editors, and`),J=l(),W=s("li"),K=p(`An apprenticeship-based consultancy, whereupon selected participants will be placed into small
+		groups, have their living expenses funded, and work together - in the open - under the guidance
+		of a senior developer on a variety of projects, receiving task breakdowns, quality assurance and
+		direction to boost their confidence and skillset.`),H=l(),k=s("p"),N=p("More details to follow."),L=l(),E=s("p"),Q=p("Spread the word.")},l(e){de(f.$$.fragment,e),P=d(e),h=n(e,"H1",{});var o=r(h);M=c(o,"Welcome to Prometheus."),o.forEach(t),S=d(e),m=n(e,"P",{});var T=r(m);O=c(T,`We are a newly-founded endeavour to increase both the knowledge and number of
+	intermediate/senior-level cryptocurrency software developers.`),T.forEach(t),$=d(e),v=n(e,"P",{});var V=r(v);R=c(V,`We have observed over the years that there is a lack of a central library of opinionated material
+	with minimal code snippets for topics that form the core of a education beyond those presented by
+	introductory courses to languages such as Solidity.`),V.forEach(t),g=d(e),b=n(e,"P",{});var X=r(b);U=c(X,`We have observed that a significant amount of talent - that learns best by doing - cuts their
+	developer careers short after being unable to identify tasks suitable for their skill level, often
+	being intimidated by the size and complexity of large/popular protocols.`),X.forEach(t),j=d(e),y=n(e,"P",{});var Y=r(y);B=c(Y,`We have observed that those that have the desire to improve their skillset often lack the time or
+	financial resources to dedicate themselves properly to becoming proficient with the material that
+	sets someone conversant in development apart from someone who can move mountains of bytecode
+	themselves.`),Y.forEach(t),A=d(e),w=n(e,"H3",{});var Z=r(w);D=c(Z,"We have observed all of this, and we intend to fix it."),Z.forEach(t),q=d(e),_=n(e,"P",{});var ee=r(_);F=c(ee,"Prometheus is a project of two parts:"),ee.forEach(t),z=d(e),u=n(e,"UL",{});var I=r(u);x=n(I,"LI",{});var te=r(x);G=c(te,`An open-source repository of advanced topics cutting across several languages and disciplines,
+		funded as a public good, accessible to all and with an associated funding model that encourages
+		contributions from developers in their educational journey, technical writers and editors, and`),te.forEach(t),J=d(I),W=n(I,"LI",{});var oe=r(W);K=c(oe,`An apprenticeship-based consultancy, whereupon selected participants will be placed into small
+		groups, have their living expenses funded, and work together - in the open - under the guidance
+		of a senior developer on a variety of projects, receiving task breakdowns, quality assurance and
+		direction to boost their confidence and skillset.`),oe.forEach(t),I.forEach(t),H=d(e),k=n(e,"P",{});var ae=r(k);N=c(ae,"More details to follow."),ae.forEach(t),L=d(e),E=n(e,"P",{});var ie=r(E);Q=c(ie,"Spread the word."),ie.forEach(t)},m(e,o){ce(f,e,o),a(e,P,o),a(e,h,o),i(h,M),a(e,S,o),a(e,m,o),i(m,O),a(e,$,o),a(e,v,o),i(v,R),a(e,g,o),a(e,b,o),i(b,U),a(e,j,o),a(e,y,o),i(y,B),a(e,A,o),a(e,w,o),i(w,D),a(e,q,o),a(e,_,o),i(_,F),a(e,z,o),a(e,u,o),i(u,x),i(x,G),i(u,J),i(u,W),i(W,K),a(e,H,o),a(e,k,o),i(k,N),a(e,L,o),a(e,E,o),i(E,Q),C=!0},p:fe,i(e){C||(ue(f.$$.fragment,e),C=!0)},o(e){he(f.$$.fragment,e),C=!1},d(e){me(f,e),e&&t(P),e&&t(h),e&&t(S),e&&t(m),e&&t($),e&&t(v),e&&t(g),e&&t(b),e&&t(j),e&&t(y),e&&t(A),e&&t(w),e&&t(q),e&&t(_),e&&t(z),e&&t(u),e&&t(H),e&&t(k),e&&t(L),e&&t(E)}}}const _e=!0;class ke extends ne{constructor(f){super(),re(this,f,null,be,le,{})}}export{ke as default,_e as prerender};
