@@ -3,5 +3,5 @@
 </script>
 
 <svelte:head>
-	<title>Prometheus - {title}</title>
+	<title>Prometheus {title.length > 0 ? `- ${title}` : ``}</title>
 </svelte:head>
