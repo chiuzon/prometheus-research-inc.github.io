@@ -2,9 +2,10 @@ import adapter from '@sveltejs/adapter-static';
 import preprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
 
-// const dev = 'production' === 'development';
+const dev = process.env.NODE_ENV === 'development';
+const REPO_NAME = '/prometheus-research-inc.github.io';
 
-// const REPO_NAME = '/prometheus-research-inc.github.io ';
+console.log(dev ? '' : REPO_NAME);
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -21,11 +22,18 @@ const config = {
 	],
 
 	kit: {
+		trailingSlash: 'always',
 		adapter: adapter({
 			pages: '/docs',
 			assets: '/docs'
 		}),
-
+		prerender: {
+			default: true
+		},
+		// paths: {
+		// 	base: dev ? '' : REPO_NAME
+		// },
+		appDir: 'internal',
 		// Override http methods in the Todo forms
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
