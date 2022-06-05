@@ -20,13 +20,16 @@ jobs:
       - name: Check out your repository using git
         uses: actions/checkout@v2
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+        version: 6.32.9
+
       - name: Use Node.js 16
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 16
-
-      - name: Install pnpm
-        run: npm install -D pnpm
+          cache: "pnpm"
 
       # Not using npm? Change `npm ci` to `yarn install` or `pnpm i`
       - name: Install dependencies
