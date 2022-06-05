@@ -33,6 +33,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.2.2
+
       # Not using npm? Change `npm ci` to `yarn install` or `pnpm i`
       - name: Install dependencies
         run: pnpm install
