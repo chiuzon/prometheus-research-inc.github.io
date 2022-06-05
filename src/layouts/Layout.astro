@@ -1,5 +1,5 @@
 ---
-import '../styles/blog.css';
+import '../styles/global.css';
 
 import Config from '../constants/Config';
 import Header from '../components/Header.svelte';
@@ -35,7 +35,7 @@ const { url: { pathname } } = Astro.request
 
 <body>
 
-    <Header pathname={pathname} client:only />
+    <Header pathname={pathname} client:load />
 
     <section class="main-container">
         <div class="main-body active">

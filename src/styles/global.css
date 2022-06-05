@@ -11,6 +11,7 @@
   font-family: "Inter", sans-serif;
   line-height: 28px;
   color: var(--text-color);
+  word-break: break-word;
 }
 
 html {
