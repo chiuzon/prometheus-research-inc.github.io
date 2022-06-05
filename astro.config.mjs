@@ -5,7 +5,7 @@ import svelte from "@astrojs/svelte";
 export default defineConfig({
   integrations: [svelte({})],
   buildOptions: {
-    site: "https://chiuzon.github.io/",
+    site: "https://chiuzon.github.io/prometheus-research-inc.github.io/",
     base: "prometheus-research-inc.github.io",
   },
 });
