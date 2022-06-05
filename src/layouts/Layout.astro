@@ -1,0 +1,49 @@
+---
+import '../styles/blog.css';
+
+import Config from '../constants/Config';
+import Header from '../components/Header.svelte';
+
+export interface Props {
+    title?: string;
+    content: { title: string };
+}
+
+const { title, content } = Astro.props as Props;
+const { url: { pathname } } = Astro.request
+
+---
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png" />
+
+    <title>{Config.WEB_NAME} {title !== undefined || content.title !== undefined ? `- ${title ?? content.title}` : ``}
+    </title>
+
+    <link rel="manifest" href="/favicon/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <Header pathname={pathname} client:only />
+
+    <section class="main-container">
+        <div class="main-body active">
+            <slot />
+
+        </div>
+    </section>
+
+</body>
+
+</html>
