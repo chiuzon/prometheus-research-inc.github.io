@@ -2,9 +2,9 @@
   "name": "promotheus",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
+    "dev": "cross-env PUBLIC_SITE_URL=\"http://localhost:3000\" astro dev",
+    "start": "cross-env PUBLIC_SITE_URL=\"http://localhost:3000\" astro dev",
+    "build": "cross-env PUBLIC_SITE_URL=\"https://chiuzon.github.io/prometheus-research-inc.github.io\" astro build",
     "preview": "astro preview"
   },
   "devDependencies": {
@@ -12,6 +12,7 @@
     "@astrojs/svelte": "^0.1.4",
     "@babel/core": "^7.18.2",
     "astro": "^0.24.3",
+    "cross-env": "^7.0.3",
     "svelte": "^3.48.0"
   }
 }

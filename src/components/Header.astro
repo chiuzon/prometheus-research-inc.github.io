@@ -1,0 +1,42 @@
+---
+import Routes from "../constants/Routes";
+import Config from "../constants/Config";
+
+
+function toggleMenu() {
+  document.querySelector("html")?.classList.toggle("menu-on");
+}
+
+
+const { PUBLIC_SITE_URL } = import.meta.env as unknown as {
+  PUBLIC_SITE_URL: string
+}
+
+
+const { url: { pathname } } = Astro.request
+---
+
+<div class="dimmer" />
+<div class="sidebar">
+  <div class="logo-container">
+    <img src="imgs/logo-prometheus.svg" alt="Logo" />
+    <h1>Prometheus</h1>
+  </div>
+  <div>
+    <img alt="On Menu" src="imgs/icon-menu.svg" class="mobile-menu-btn open" onclick={toggleMenu} />
+    <img alt="Off Menu" src="imgs/icon-arrow.svg" class="mobile-menu-btn close" onclick={toggleMenu} />
+  </div>
+  <div class="menu">
+    <div class="sidebar-links">
+      {Object.keys(Routes).map((item) =>
+      (<a href={PUBLIC_SITE_URL + item} class={`nav-tab ${pathname===item ? 'active' : '' }`}>{Routes[item].label}</a>))
+      }
+    </div>
+    <div class="sidebar-footer">
+      {Object.keys(Config.FOOTER_LINKS).map((item) =>
+      (<a href={Config.FOOTER_LINKS[item].href} target="_blank">{Config.FOOTER_LINKS[item].label}</a>))
+      }
+      <p>{Config.COPYRIGHT}</p>
+    </div>
+  </div>
+</div>

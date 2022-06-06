@@ -2,7 +2,7 @@
 import '../styles/global.css';
 
 import Config from '../constants/Config';
-import Header from '../components/Header.svelte';
+import Header from '../components/Header.astro';
 
 export interface Props {
     title?: string;
@@ -10,7 +10,6 @@ export interface Props {
 }
 
 const { title, content } = Astro.props as Props;
-const { url: { pathname } } = Astro.request
 
 ---
 
@@ -35,7 +34,7 @@ const { url: { pathname } } = Astro.request
 
 <body>
 
-    <Header pathname={pathname} client:load />
+    <Header />
 
     <section class="main-container">
         <div class="main-body active">

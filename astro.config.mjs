@@ -2,10 +2,10 @@ import { defineConfig } from "astro/config";
 import svelte from "@astrojs/svelte";
 
 // https://astro.build/config
-export default defineConfig({
+export default /** @type {import('astro').AstroUserConfig} */ defineConfig({
   integrations: [svelte({})],
   buildOptions: {
-    site: "https://chiuzon.github.io/prometheus-research-inc.github.io/",
+    site: "",
     base: "prometheus-research-inc.github.io",
   },
 });
