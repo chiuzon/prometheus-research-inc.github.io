@@ -29,7 +29,8 @@ const { url: { pathname } } = Astro.request
   <div class="menu">
     <div class="sidebar-links">
       {Object.keys(Routes).map((item) =>
-      (<a href={PUBLIC_SITE_URL + item} class={`nav-tab ${pathname===item ? 'active' : '' }`}>{Routes[item].label}</a>))
+      (<a href={ Routes[item].internal ? PUBLIC_SITE_URL + item : item} class={`nav-tab ${pathname===item ? 'active'
+        : '' }`}>{Routes[item].label}</a>))
       }
     </div>
     <div class="sidebar-footer">
